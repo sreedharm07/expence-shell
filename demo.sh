@@ -1,4 +1,4 @@
-name=$1
-sed -i "s/sreedhar/${name}/" /root/expence-shell/practice.sh
+names=$1
+sed -i "s/sreedhar/${names}/" /root/expence-shell/practice.sh
 source practice.sh
 #
