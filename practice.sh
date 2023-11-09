@@ -4,16 +4,16 @@ if [ $comp == 1 ]; then
 fi
 
 
-if [ $comp == 2 ]; then
+if [ $comp -gt 2 ]; then
         echo executing if
 else
         echo execution else
 fi
 
 
-if [ $comp == 3 ]; then
+if [ $comp -gt 3 ]; then
   echo 1stif executing
-  elif [ $comp == 1 ]; then
+  elif [ $comp == 2 ]; then
     echo elifis executing
   else
     echo last one
