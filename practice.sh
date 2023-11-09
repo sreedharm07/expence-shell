@@ -18,7 +18,6 @@
 #  else
 #    echo last one
 #    fi
-#
 
-a=$1
-echo $a
+
+echo service file sreedhar
