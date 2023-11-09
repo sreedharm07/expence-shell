@@ -13,7 +13,7 @@ fi
 
 if [ $comp == 3 ]; then
   echo 1stif executing
-  elif [ $comp == 1]; then
+  elif [ $comp == 1 ]; then
     echo elifis executing
   else
     echo last one
