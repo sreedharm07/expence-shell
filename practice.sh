@@ -28,4 +28,8 @@ while [ $a -gt 1 ]; do
   echo woo
   a=$(($a-1))
   done
-#
+
+
+for comp in catalogue frontend user ; do
+  echo $comp
+  done
