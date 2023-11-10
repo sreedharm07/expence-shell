@@ -26,5 +26,6 @@ a=10
 
 while [ 10 -gt 1 ]; do
   echo woo
+  a=$(($a - 1))
   done
 #
