@@ -30,6 +30,6 @@ while [ $a -gt 1 ]; do
   done
 
 #
-#for comp in catalogue frontend user ; do
-#  echo $comp
-#  done
+for comp in catalogue frontend user ; do
+  echo $comp
+  done
