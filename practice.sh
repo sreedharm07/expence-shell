@@ -29,7 +29,7 @@ while [ $a -gt 1 ]; do
   a=$(($a-1))
   done
 
-#
-for comp in catalogue frontend user ; do
-  echo $comp
-  done
+##
+#for comp in catalogue frontend user ; do
+#  echo $comp
+#  done
